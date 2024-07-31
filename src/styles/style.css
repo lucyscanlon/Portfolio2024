@@ -1,3 +1,254 @@
-body {
-    background-color: blue;
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* global styles */
+
+.colour-green {
+    color: #6C9A5F;
+}
+
+
+/* fonts */
+
+@font-face {
+    font-family: blueCashew;
+    src: url("../assets/fonts/Blue_Cashews.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Belgiano;
+    src: url("../assets/fonts/Belgiano_Serif_2.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: Gameboy;
+    src: url("../assets/fonts/Early_GameBoy.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: Pixeled;
+    src: url("../assets/fonts/Pixeled.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: Edensor;
+    src: url("../assets/fonts/Edensor-FREE.otf") format("opentype");
+}
+
+
+/* navigation bar */
+
+.header-nav-bar-container {
+    width: 100%;
+    height: 130px;
+    background-color: #F3F1EB;
+}
+
+.header-name-left-container {
+    width: 35%;
+    height: 100%;
+    float: left;
+}
+
+.header-nav-right-container {
+    width: 65%;
+    height: 100%;
+    float: right;
+    
+}
+
+.navigation-list-container li {
+    display: inline;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.navigation-list-container li:hover {
+    color: #6C9A5F;
+    cursor: pointer;
+}
+
+.navigation-list-container ul {
+    padding-top: 52px;
+    font-family: "Figtree", sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    text-align: right;
+}
+
+.navigation-list-container {
+    padding-right: 50px;
+}
+
+.header-name-container {
+    padding-top: 43px;
+    padding-left: 70px;
+    letter-spacing: 1px;
+}
+
+.header-name-container h1 {
+    font-family: Gameboy;
+    font-size: 30px;
+}
+
+
+/* introduction section */
+
+.introduction-whole-container {
+    width: 100%;
+    height: 550px;
+    background-color: #F3F1EB;
+}
+
+.introduction-padding {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.introduction-image-left-flex {
+    width: 40%;
+    float: left;
+    height: 100%;
+}
+
+.introduction-text-right-flex {
+    width: 60%;
+    float: right;
+    height: 100%;
+}
+
+.polaroid-white-container {
+    width: 300px;
+    height: 380px;
+    background-color: white;
+    float: right;
+    margin-right: 50px;
+    margin-top: 50px;
+    border-radius: 15px;
+    -webkit-box-shadow: 3px 3px 10px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 3px 10px -3px rgba(0,0,0,0.75);
+    box-shadow: 3px 3px 10px -3px rgba(0,0,0,0.75);
+    transform-origin: 50% 50%;
+    transform: rotate(3deg);
+}
+
+.polaroid-image-container {
+    width: 260px;
+    height: 260px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: black;
+}
+
+.polaroid-image-container img {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.introduction-text-padding {
+    width: 90%;
+    padding-left: 50px;
+    padding-top: 70px;
+}
+
+.introduction-heading-container h1{
+    font-family: Gameboy;
+    font-size: 30px;
+}
+
+.introduction-description-container {
+    padding-top: 20px;
+    width: 90%;
+}
+
+.introduction-description-container p {
+    font-family: "Figtree", sans-serif;
+    font-size: 17px;
+    line-height: 2em;
+    font-weight: 300;
+    color: #4B4B4B;
+}
+
+.introduction-button-container {
+    padding-top: 25px;
+}
+
+.introduction-button-container button {
+    width: 130px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: #6C9A5F;
+    color: white;
+    border: none;
+    font-family: "Figtree", sans-serif;
+    font-size: 17px;
+    border: solid 2px #6C9A5F;
+    transition-duration: 0.3s;
+    font-weight: 400;
+
+}
+
+.introduction-button-container button:hover {
+    background-color: #F3F1EB;
+    border: solid 2px #6C9A5F;
+    transition-duration: 0.3s;
+    color: #6C9A5F;
+    cursor: pointer;
+}
+
+.introduction-grad-container {
+    padding-top: 20px;
+    font-family: "Figtree", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #6C9A5F;
+    
+    width: 80%;
+    line-height: 2em;
+}
+
+.fa-user-graduate {
+    padding-right: 5px;
+    color: #6C9A5F;
+}
+
+.polaroid-information-container {
+    width: 83%;
+    margin: 0 auto;
+
+}
+
+.polaroid-information-container li {
+    list-style-type: none;
+    font-family: "Figtree", sans-serif;
+    font-size: 14px;
+    color: #4B4B4B;
+    font-weight: 300;
+    padding-bottom: 10px;
+}
+
+.polaroid-information-container ul {
+    padding-top: 30px;
+}
+
+.polaroid-information-container .fa-envelope {
+    padding-right: 5px;
+}
+
+.polaroid-information-container .fa-map-pin {
+    padding-right: 10px;
+    padding-left: 2px;
 }
