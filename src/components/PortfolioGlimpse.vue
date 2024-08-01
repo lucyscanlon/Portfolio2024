@@ -11,7 +11,7 @@
         </div>
         <div class="portfolioreel-flex-container">
             <div class="portfolioreel-leftarrow-container">
-                <p @click="previousSlide()"><font-awesome-icon icon="fa-solid fa-arrow-left" /></p>
+                <p @click="previousSlide()"><font-awesome-icon v-if="currentSlide !== 0" icon="fa-solid fa-arrow-left" /></p>
             </div>
             <div v-if="currentSlide === 0" class="portfolioreel-whole-container">
                 <div class="portfolioreel-padding">
@@ -65,8 +65,42 @@
                     </div>
                 </div>
             </div>
+            <div v-if="currentSlide === 3" class="portfolioreel-whole-container">
+                <div class="portfolioreel-padding">
+                    <div class="portfolioreel-title-container">
+                        <h2>Tadpole Tamagotchi</h2>
+                    </div>
+                    <LanguagesUsed listOfTech="C++"></LanguagesUsed>
+                    <div class="portfolioreel-image-container">
+                        <img src="/TadpoleGamePreview.png">
+                    </div>
+                    <div class="portfolioreel-desc-container">
+                        <p>A project built using C++ on xCode inspired by Tamagotchi games.</p>
+                    </div>
+                    <div class="portfolioreel-github-button-container">
+                        <a href="https://github.com/lucyscanlon/Frog-tamagatchi" target="_blank"><button>View on Github</button></a>
+                    </div>
+                </div>
+            </div>
+            <div v-if="currentSlide === 4" class="portfolioreel-whole-container">
+                <div class="portfolioreel-padding">
+                    <div class="portfolioreel-title-container">
+                        <h2>Mars Rover Game</h2>
+                    </div>
+                    <LanguagesUsed listOfTech="p5.js, p5.sound.js"></LanguagesUsed>
+                    <div class="portfolioreel-image-container">
+                        <img src="/MarsRoverGame.png">
+                    </div>
+                    <div class="portfolioreel-desc-container">
+                        <p>A game inspired by Super Mario Bros where players control the Mars Rover and collect plant samples.</p>
+                    </div>
+                    <div class="portfolioreel-github-button-container">
+                        <a href="https://github.com/lucyscanlon/MarsRoverGame" target="_blank"><button>View on Github</button></a>
+                    </div>
+                </div>
+            </div>
             <div class="portfolioreel-rightarrow-container">
-                <p @click="nextSlide()"><font-awesome-icon icon="fa-solid fa-arrow-right" /></p>
+                <p @click="nextSlide()"><font-awesome-icon v-if="currentSlide !== 4" icon="fa-solid fa-arrow-right" /></p>
             </div>    
         </div>
     </div>
@@ -82,7 +116,7 @@
         LanguagesUsed,
     }, data() {
         return {
-            currentSlide: 1,
+            currentSlide: 0,
         }
     }, methods: {
         nextSlide() {
