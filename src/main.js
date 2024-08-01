@@ -11,6 +11,7 @@ import { faMapPin } from '@fortawesome/free-solid-svg-icons'
 import { faCode } from '@fortawesome/free-solid-svg-icons'
 import { faArrowLeft } from '@fortawesome/free-solid-svg-icons'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
 library.add(faUserGraduate)
 library.add(faEnvelope)
@@ -18,6 +19,7 @@ library.add(faMapPin)
 library.add(faCode)
 library.add(faArrowLeft)
 library.add(faArrowRight)
+library.add(faGithub)
 
 const app = createApp(App);
 

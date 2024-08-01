@@ -8,8 +8,9 @@
                     </div>
                     <div class="polaroid-information-container">
                         <ul>
-                            <li><font-awesome-icon icon="fa-solid fa-map-pin" /> London</li>
-                            <li><font-awesome-icon icon="fa-solid fa-envelope" /> lucyscanlon1910@gmail.com</li>
+                            <li><font-awesome-icon icon="fa-solid fa-map-pin" />London</li>
+                            <li><font-awesome-icon icon="fa-solid fa-envelope" />lucyscanlon1910@gmail.com</li>
+                            <a href="https://github.com/lucyscanlon" target="_blank"><li><font-awesome-icon icon="fa-brands fa-github" />github.com/lucyscanlon</li></a>
                         </ul>
                     </div>
 
