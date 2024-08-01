@@ -319,9 +319,10 @@ html {
 }
 
 .portfolioreel-whole-container {
-    width: 100%;
+    width: 80%;
     overflow: auto;
     background-color: white;
+    float: left;
 }
 
 .portfolioreel-padding {
@@ -417,6 +418,50 @@ html {
     border: solid 2px #6C9A5F;
     transition-duration: 0.3s;
     color: #6C9A5F;
+    cursor: pointer;
+}
+
+.portfolioreel-flex-container {
+    width: 100%;
+    overflow: auto;
+    
+}
+
+.portfolioreel-leftarrow-container {
+    width: 10%;
+    float: left;
+}
+
+.portfolioreel-rightarrow-container {
+    width: 10%;
+    float: right;
+}
+
+.portfolioreel-leftarrow-container p {
+    font-size: 40px;
+    padding-top: 400px;
+    text-align: right;
+    color: black;
+    transition-duration: 0.3s;
+}
+
+.portfolioreel-rightarrow-container p {
+    font-size: 40px;
+    padding-top: 400px;
+    text-align: left;
+    color: black;
+    transition-duration: 0.3s;
+}
+
+.portfolioreel-leftarrow-container p:hover {
+    color: #6C9A5F;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+.portfolioreel-rightarrow-container p:hover {
+    color: #6C9A5F;
+    transition-duration: 0.3s;
     cursor: pointer;
 }
 
