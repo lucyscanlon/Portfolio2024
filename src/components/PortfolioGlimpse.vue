@@ -13,8 +13,8 @@
             <div class="portfolioreel-leftarrow-container">
                 <p @click="previousSlide()"><font-awesome-icon v-if="currentSlide !== 0" icon="fa-solid fa-arrow-left" /></p>
             </div>
-            <div v-if="currentSlide === 0" class="portfolioreel-whole-container">
-                <div class="portfolioreel-padding">
+            <div class="portfolioreel-whole-container">
+                <div v-if="currentSlide === 0" class="portfolioreel-padding">
                     <div class="portfolioreel-title-container">
                         <h2>Cash Course: An Interactive Financial Education Game</h2>
                     </div>
@@ -29,9 +29,7 @@
                         <a href="https://github.com/lucyscanlon/FinanceGame/tree/main" target="_blank"><button>View on Github</button></a>
                     </div>
                 </div>
-            </div>
-            <div v-if="currentSlide === 1" class="portfolioreel-whole-container">
-                <div class="portfolioreel-padding">
+                <div v-if="currentSlide === 1" class="portfolioreel-padding">
                     <div class="portfolioreel-title-container">
                         <h2>Deadline Dash: An Arcade Game Inspired By exam season</h2>
                     </div>
@@ -47,9 +45,7 @@
                         <a href="https://github.com/lucyscanlon/DeadlineDash" target="_blank"><button>View on Github</button></a>
                     </div>
                 </div>
-            </div>
-            <div v-if="currentSlide === 2" class="portfolioreel-whole-container">
-                <div class="portfolioreel-padding">
+                <div v-if="currentSlide === 2" class="portfolioreel-padding">
                     <div class="portfolioreel-title-container">
                         <h2>Picasso Face Filters</h2>
                     </div>
@@ -64,9 +60,7 @@
                         <a href="https://github.com/lucyscanlon/PicassoFaceFilters" target="_blank"><button>View on Github</button></a>
                     </div>
                 </div>
-            </div>
-            <div v-if="currentSlide === 3" class="portfolioreel-whole-container">
-                <div class="portfolioreel-padding">
+                <div v-if="currentSlide === 3" class="portfolioreel-padding">
                     <div class="portfolioreel-title-container">
                         <h2>Tadpole Tamagotchi</h2>
                     </div>
@@ -81,9 +75,7 @@
                         <a href="https://github.com/lucyscanlon/Frog-tamagatchi" target="_blank"><button>View on Github</button></a>
                     </div>
                 </div>
-            </div>
-            <div v-if="currentSlide === 4" class="portfolioreel-whole-container">
-                <div class="portfolioreel-padding">
+                <div v-if="currentSlide === 4" class="portfolioreel-padding">
                     <div class="portfolioreel-title-container">
                         <h2>Mars Rover Game</h2>
                     </div>
@@ -116,7 +108,7 @@
         LanguagesUsed,
     }, data() {
         return {
-            currentSlide: 0,
+            currentSlide: 1,
         }
     }, methods: {
         nextSlide() {

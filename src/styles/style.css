@@ -335,6 +335,8 @@ html {
     overflow: auto;
     background-color: white;
     float: left;
+    min-height: 500px;
+
 }
 
 .portfolioreel-padding {
@@ -363,6 +365,8 @@ html {
     height: auto;
     padding-top: 20px;
     border-radius: 15px;
+    min-height: 400px;
+    background-color: white;
 }
 
 .portfolioreel-image-container img {
@@ -438,6 +442,7 @@ html {
 .portfolioreel-flex-container {
     width: 100%;
     overflow: auto;
+    min-height: 500px;
     
 }
 
