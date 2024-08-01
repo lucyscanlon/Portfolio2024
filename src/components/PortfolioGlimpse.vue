@@ -40,11 +40,28 @@
                         <img src="/DeadlineDashPreview.png">
                     </div>
                     <div class="portfolioreel-desc-container">
-                        <p>An interactive game inspired by exam season at University. This game was created for my class Expressive Game Design where we made a game that reflected a real life experience. This game is published and playable on itch.io.</p>
+                        <p>An interactive game inspired by exam season at university. This game was created for my class Expressive Game Design where we made a game that reflected a real life experience. This game is published and playable on itch.io.</p>
                     </div>
                     <div class="portfolioreel-github-button-container">
                         <a href="https://lucyscanlon.itch.io/deadline-dash" target="_blank"><button>Play on Itch.io</button></a>
                         <a href="https://github.com/lucyscanlon/DeadlineDash" target="_blank"><button>View on Github</button></a>
+                    </div>
+                </div>
+            </div>
+            <div v-if="currentSlide === 2" class="portfolioreel-whole-container">
+                <div class="portfolioreel-padding">
+                    <div class="portfolioreel-title-container">
+                        <h2>Picasso Face Filters</h2>
+                    </div>
+                    <LanguagesUsed listOfTech="p5.js, ml5.js"></LanguagesUsed>
+                    <div class="portfolioreel-image-container">
+                        <img src="/PicassoFiltersPreview.png">
+                    </div>
+                    <div class="portfolioreel-desc-container">
+                        <p>A project built using ml5.js face mapping to create a series of face filters inspired by Picasso's self portraits. This project was created for my machine learning class at university.</p>
+                    </div>
+                    <div class="portfolioreel-github-button-container">
+                        <a href="https://github.com/lucyscanlon/PicassoFaceFilters" target="_blank"><button>View on Github</button></a>
                     </div>
                 </div>
             </div>
