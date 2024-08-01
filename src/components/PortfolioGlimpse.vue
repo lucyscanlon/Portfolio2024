@@ -19,7 +19,10 @@
                     <img src="/CashCoursePreview.png">
                 </div>
                 <div class="portfolioreel-desc-container">
-                    <p>An interactive JavaScript game built using Vue JS, which educates players about personal finance concepts and encourages players to make responsible decisions. This project was developed as my final project in my third year of university. I was awarded a first for this project.</p>
+                    <p>An interactive JavaScript game built using Vue JS, which educates players about personal finance concepts and encourages players to make responsible decisions. This project was developed as my final project in my third year of university and I was awarded a first for this project.</p>
+                </div>
+                <div class="portfolioreel-github-button-container">
+                    <a href="https://github.com/lucyscanlon/FinanceGame/tree/main" target="_blank"><button>View on Github</button></a>
                 </div>
             </div>
             

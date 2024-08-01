@@ -391,4 +391,33 @@ html {
     line-height: 2em;
 }
 
+.portfolioreel-github-button-container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.portfolioreel-github-button-container button {
+    width: 160px;
+    height: 45px;
+    border-radius: 15px;
+    background-color: #6C9A5F;
+    color: white;
+    border: none;
+    font-family: "Figtree", sans-serif;
+    font-size: 15px;
+    border: solid 2px #6C9A5F;
+    transition-duration: 0.3s;
+    font-weight: 400;
+}
+
+.portfolioreel-github-button-container button:hover {
+    background-color: white;
+    border: solid 2px #6C9A5F;
+    transition-duration: 0.3s;
+    color: #6C9A5F;
+    cursor: pointer;
+}
+
 
