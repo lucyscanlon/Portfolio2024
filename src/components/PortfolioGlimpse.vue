@@ -11,9 +11,9 @@
         </div>
         <div class="portfolioreel-flex-container">
             <div class="portfolioreel-leftarrow-container">
-                <p><font-awesome-icon icon="fa-solid fa-arrow-left" /></p>
+                <p @click="previousSlide()"><font-awesome-icon icon="fa-solid fa-arrow-left" /></p>
             </div>
-            <div class="portfolioreel-whole-container">
+            <div v-if="currentSlide === 0" class="portfolioreel-whole-container">
                 <div class="portfolioreel-padding">
                     <div class="portfolioreel-title-container">
                         <h2>Cash Course: An Interactive Financial Education Game</h2>
@@ -30,8 +30,26 @@
                     </div>
                 </div>
             </div>
+            <div v-if="currentSlide === 1" class="portfolioreel-whole-container">
+                <div class="portfolioreel-padding">
+                    <div class="portfolioreel-title-container">
+                        <h2>Deadline Dash: An Arcade Game Inspired By exam season</h2>
+                    </div>
+                    <LanguagesUsed listOfTech="p5.js"></LanguagesUsed>
+                    <div class="portfolioreel-image-container">
+                        <img src="/DeadlineDashPreview.png">
+                    </div>
+                    <div class="portfolioreel-desc-container">
+                        <p>An interactive game inspired by exam season at University. This game was created for my class Expressive Game Design where we made a game that reflected a real life experience. This game is published and playable on itch.io.</p>
+                    </div>
+                    <div class="portfolioreel-github-button-container">
+                        <a href="https://lucyscanlon.itch.io/deadline-dash" target="_blank"><button>Play on Itch.io</button></a>
+                        <a href="https://github.com/lucyscanlon/DeadlineDash" target="_blank"><button>View on Github</button></a>
+                    </div>
+                </div>
+            </div>
             <div class="portfolioreel-rightarrow-container">
-                <p><font-awesome-icon icon="fa-solid fa-arrow-right" /></p>
+                <p @click="nextSlide()"><font-awesome-icon icon="fa-solid fa-arrow-right" /></p>
             </div>    
         </div>
     </div>
@@ -45,6 +63,18 @@
     name: 'PortfolioGlimpse',
     components: {
         LanguagesUsed,
+    }, data() {
+        return {
+            currentSlide: 1,
+        }
+    }, methods: {
+        nextSlide() {
+            this.currentSlide = this.currentSlide + 1;
+        },
+
+        previousSlide() {
+            this.currentSlide = this.currentSlide - 1;
+        }
     }
   }
   </script>

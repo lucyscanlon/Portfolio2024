@@ -326,7 +326,7 @@ html {
 }
 
 .portfolioreel-padding {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     height: 100%;
     margin-top: 100px;
@@ -334,7 +334,7 @@ html {
 }
 
 .portfolioreel-title-container {
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
     text-align: center;
     line-height: 2.5em;
@@ -378,10 +378,10 @@ html {
 }
 
 .portfolioreel-desc-container {
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 .portfolioreel-desc-container p {
@@ -393,7 +393,7 @@ html {
 }
 
 .portfolioreel-github-button-container {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     text-align: center;
     padding-top: 20px;
@@ -411,6 +411,8 @@ html {
     border: solid 2px #6C9A5F;
     transition-duration: 0.3s;
     font-weight: 400;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .portfolioreel-github-button-container button:hover {
