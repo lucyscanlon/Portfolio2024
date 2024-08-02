@@ -365,7 +365,7 @@ html {
     height: auto;
     padding-top: 20px;
     border-radius: 15px;
-    min-height: 400px;
+    min-height: 350px;
     background-color: white;
 }
 
@@ -489,7 +489,7 @@ html {
 
 .workexperience-whole-container {
     width: 100%;
-    height: 400px;
+    overflow: auto;
     background-color: #F3F1EB;
 }
 
@@ -504,6 +504,74 @@ html {
     font-family: Gameboy;
     font-size: 30px;
 }
+
+.workexperience-list-whole-container {
+    width: 60%;
+    margin: auto;
+    overflow: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.workexperience-list-container {
+    width: 100%;
+    background-color: white;
+    overflow: auto;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.workexperience-list-padding {
+    width: 90%;
+    margin: 0 auto;
+    overflow: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.workexperience-list-title-container h3 {
+    font-family: Gameboy;
+    font-size: 17px;
+}
+
+.workexperience-date-container {
+    padding-top: 10px;
+}
+
+.workexperience-date-container p {
+    font-family: "Figtree", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: #616161;
+}
+
+.workexperience-date-container .fa-calendar-days {
+    padding-right: 6px;
+}
+
+.workexperience-list-resp-container {
+    padding-top: 15px;
+}
+
+.workexperience-list-resp-container h4 {
+    font-family: "Figtree", sans-serif;
+    font-weight: 300;
+}
+
+.workexperience-list-resp-container ul {
+    padding-left: 15px;
+    font-family: "Figtree", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #616161;
+    padding-top: 10px;
+}
+
+.workexperience-list-resp-container li {
+    padding-bottom: 10px;
+}
+
+
 
 
 
