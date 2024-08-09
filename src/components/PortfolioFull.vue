@@ -112,6 +112,53 @@
             <div class="portfull-hr-container">
             </div>
         </div>
+        <div v-if="((this.p5Status === 1) || (this.AllStatus === 1))" class="portfull-project-container">
+            <div class="portfull-image-container">
+                <img src="/MarsRoverGame.png">
+            </div>
+            <div class="portfull-info-container">
+                <div class="portfull-project-padding tadpole-project-padding">
+                    <div class="portfull-project-title-container deadlinedash-padding">
+                        <h2>Mars Rover Game</h2>
+                    </div>
+                    <div class="portfull-project-langused-container">
+                        <LanguagesUsed listOfTech="p5.js, p5.sound.js"></LanguagesUsed>
+                    </div>
+                    <div class="portfull-project-desc-container">
+                        <p>A game inspired by Super Mario Bros where players control the Mars Rover and collect plant samples.</p>
+                    </div>
+                    <div class="portfull-project-buttons-container">
+                        <a href="https://github.com/lucyscanlon/MarsRoverGame" target="_blank"><button>View on Github</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfull-hr-container">
+            </div>
+        </div>
+        <div v-if="((this.VanJSStatus === 1) || (this.AllStatus === 1))" class="portfull-project-container">
+            <div class="portfull-image-container">
+                <img src="/HangmanGamePreview.png">
+            </div>
+            <div class="portfull-info-container">
+                <div class="portfull-project-padding tadpole-project-padding">
+                    <div class="portfull-project-title-container deadlinedash-padding">
+                        <h2>Hangman Game</h2>
+                    </div>
+                    <div class="portfull-project-langused-container">
+                        <LanguagesUsed listOfTech="Vanilla JS"></LanguagesUsed>
+                    </div>
+                    <div class="portfull-project-desc-container">
+                        <p>A project which coded the classic game of Hangman using Vanilla JS.</p>
+                    </div>
+                    <div class="portfull-project-buttons-container">
+                        <a href="https://lucyscanlon.github.io/HangmanGame/" target="_blank"><button>Play Game</button></a>
+                        <a href="https://github.com/lucyscanlon/HangmanGame" target="_blank"><button>View on Github</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfull-hr-container">
+            </div>
+        </div>
     </div>
 </template>
   
