@@ -18,11 +18,26 @@
                 <span v-bind:class="(ml5Status === 1) ? 'green-fill' : ''"><button @click="ml5Press()">ml5.js</button></span>
             </div>
         </div>
-        <div class="portfull-project-container">
+        <div v-if="((this.VueStatus === 1) || (this.AllStatus === 1) )" class="portfull-project-container">
             <div class="portfull-image-container">
-
+                <img src="/CashCoursePreview.png">
             </div>
             <div class="portfull-info-container">
+                <div class="portfull-project-padding">
+                    <div class="portfull-project-title-container">
+                        <h2>Cash Course: An Interactive Financial Education Game</h2>
+                    </div>
+                    <div class="portfull-project-langused-container">
+                        <LanguagesUsed listOfTech="Vue JS, JavaScript, HTML, CSS"></LanguagesUsed>
+                    </div>
+                    <div class="portfull-project-desc-container">
+                        <p>An interactive JavaScript game built using Vue JS, which educates players about personal finance concepts and encourages players to make responsible decisions. This project was developed as my final project in my third year of university and I was awarded a first for this project.</p>
+                    </div>
+                    <div class="portfull-project-buttons-container">
+                        <button>Play Game</button>
+                        <button>View on Github</button>
+                    </div>
+                </div>
 
             </div>
         </div>
@@ -30,8 +45,14 @@
 </template>
   
   <script>
+
+  import LanguagesUsed from './LangagesUsed.vue'
+
   export default {
     name: 'PortfolioFull',
+    components: {
+        LanguagesUsed,
+    },
     data() {
         return {
             AllStatus: 1,

@@ -574,24 +574,27 @@ html {
 
 /* portfolio full view */
 
+.portfull-whole-container {
+    background-color:#F3F1EB;
+}
+
 .portfull-project-container {
     width: 100%;
     height: 500px;
-    background-color: red;
 }
 
 .portfull-image-container {
     width: 50%;
     float: left;
-    height: 400px;
-    background-color: blue;
+    height: 500px;
+    overflow: hidden;
 }
 
 .portfull-info-container {
     width: 50%;
     float: right;
-    height: 400px;
-    background-color: green;
+    height: 500px;
+    background-color: white;
 }
 
 .portfull-language-selector-container {
@@ -599,11 +602,13 @@ html {
     margin: 0 auto;
     padding-top: 30px;
     
+    
 }
 
 .portfull-language {
-    padding-top: 20px;
-    padding-bottom: 40px;
+    padding-top: 30px;
+    padding-bottom: 70px;
+    text-align: center;
 }
 
 .portfull-language-selector-container button {
@@ -613,7 +618,7 @@ html {
     margin-left: 5px;
     margin-right: 5px;
     border-radius: 15px;
-    background-color: white;
+    background-color: #F3F1EB;
     color: #6C9A5F;
     border: solid 1.5px #6C9A5F;
     font-family: "Figtree", sans-serif;
@@ -632,7 +637,8 @@ html {
 .portfull-title-container {
     width: 91%;
     margin: 0 auto;
-    padding-top: 50px;
+    padding-top: 60px;
+    text-align: center;
 }
 
 .portfull-title-container h1 {
@@ -646,11 +652,82 @@ html {
     font-family: "Figtree", sans-serif;
     font-size: 15px;
     color: #616161;
+    text-align: center;
 }
 
 .green-fill button {
     background-color: #6C9A5F;
     color: white;
+
+}
+
+
+.portfull-image-container img {
+    width: auto;
+    height: 100%;
+}
+
+.portfull-project-title-container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.portfull-project-title-container h2 {
+    font-family: Gameboy;
+}
+
+.portfull-project-padding {
+    padding-top: 55px;
+}
+
+.portfull-project-desc-container {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.portfull-project-desc-container p {
+    font-family: "Figtree", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #4B4B4B;
+    line-height: 2em;
+    text-align: center;
+}
+
+.portfull-project-langused-container {
+    padding-top: 10px;
+}
+
+.portfull-project-buttons-container {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.portfull-project-buttons-container button {
+    height: 40px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 15px;
+    background-color: #6C9A5F;
+    color: white;
+    border: solid 1.5px #6C9A5F;
+    font-family: "Figtree", sans-serif;
+    font-size: 15px;
+    transition-duration: 0.3s;
+    font-weight: 400;
+}
+
+.portfull-project-buttons-container button:hover {
+    background-color: white;
+    color: #6C9A5F;
+    transition-duration: 0.3s;
+    cursor: pointer;
 }
 
 
