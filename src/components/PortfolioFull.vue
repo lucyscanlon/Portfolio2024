@@ -1,27 +1,41 @@
 <template>
-    <div class="header-nav-bar-container">
-      <div class="header-name-left-container">
-        <div class="header-name-container">
-          <h1>PortfolioFull</h1>
+    <div class="portfull-whole-container">
+        <div class="portfull-title-container">
+            <h1>My Portfolio</h1>
         </div>
-      
-      </div>
-      <div class="header-nav-right-container">
-        <div class="navigation-list-container">
-          <ul>
-            <li class="colour-green">Home</li>
-            <li>Portfolio</li>
-            <li>Contact</li>
-          </ul>
+        <div class="portfull-language-selector-container">
+            <div class="portfull-desc-container">
+                <p>Filter projects using the buttons below:</p>
+            </div>
+            <div class="portfull-language">
+                <span class="green-fill"><button>All</button></span>
+                <button>Vue JS</button>
+                <button>p5.js</button>
+                <button>C++</button>
+                <button>WordPress</button>
+                <button>Freelance</button>
+                <button>Vanilla JavaScript</button>
+                <button>ml5.js</button>
+            </div>
         </div>
-  
-      </div>
+        <div class="portfull-project-container">
+            <div class="portfull-image-container">
+
+            </div>
+            <div class="portfull-info-container">
+
+            </div>
+        </div>
     </div>
-    <RouterView />
-  </template>
+</template>
   
   <script>
   export default {
     name: 'PortfolioFull',
+    data() {
+        return {
+
+        }
+    },
   }
   </script>
