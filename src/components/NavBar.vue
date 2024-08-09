@@ -9,14 +9,15 @@
     <div class="header-nav-right-container">
       <div class="navigation-list-container">
         <ul>
-          <li class="colour-green">Home</li>
-          <li>Portfolio</li>
+          <RouterLink to="/"><li class="colour-green">Home</li></RouterLink>
+          <RouterLink to="/portfolio"><li>Portfolio</li></RouterLink>
           <li>Contact</li>
         </ul>
       </div>
 
     </div>
   </div>
+  <RouterView />
 </template>
 
 <script>
