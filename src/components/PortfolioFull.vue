@@ -159,6 +159,53 @@
             <div class="portfull-hr-container">
             </div>
         </div>
+        <div v-if="((this.WordPressStatus === 1) || (this.AllStatus === 1) || (this.FreelanceStatus === 1))" class="portfull-project-container">
+            <div class="portfull-image-container">
+                <img src="/OakhamFarmPreview.png">
+            </div>
+            <div class="portfull-info-container">
+                <div class="portfull-project-padding oakhamfarm-padding">
+                    <div class="portfull-project-title-container deadlinedash-padding">
+                        <h2>Oakham Farm Website</h2>
+                    </div>
+                    <div class="portfull-project-langused-container">
+                        <LanguagesUsed listOfTech="WordPress, PHP, HTML, CSS"></LanguagesUsed>
+                    </div>
+                    <div class="portfull-project-desc-container">
+                        <p>A website designed and coded for a local farm advertising their fishing and timber services. This website was created as a custom WordPress theme.</p>
+                    </div>
+                    <div class="portfull-project-buttons-container">
+                        <a href="https://www.oakhamfarm.co.uk/" target="_blank"><button>View Website</button></a>
+                        <a href="https://github.com/lucyscanlon/oakham-farm" target="_blank"><button>View on Github</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfull-hr-container">
+            </div>
+        </div>
+        <div v-if="((this.WordPressStatus === 1) || (this.AllStatus === 1) || (this.FreelanceStatus === 1))" class="portfull-project-container">
+            <div class="portfull-image-container deadlinedash-img">
+                <img src="/TrekPreview.png">
+            </div>
+            <div class="portfull-info-container">
+                <div class="portfull-project-padding oakhamfarm-padding">
+                    <div class="portfull-project-title-container deadlinedash-padding">
+                        <h2>Trek - A Wordpress Theme for Travel Bloggers</h2>
+                    </div>
+                    <div class="portfull-project-langused-container">
+                        <LanguagesUsed listOfTech="WordPress, PHP, HTML, CSS"></LanguagesUsed>
+                    </div>
+                    <div class="portfull-project-desc-container">
+                        <p>A WordPress theme I created in 2019 for travel bloggers. I sold this theme on Etsy and had 12 sales.</p>
+                    </div>
+                    <div class="portfull-project-buttons-container">
+                        <a href="https://github.com/lucyscanlon/trek" target="_blank"><button>View on Github</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfull-hr-container">
+            </div>
+        </div>
     </div>
 </template>
   
