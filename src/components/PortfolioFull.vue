@@ -66,7 +66,7 @@
             <div class="portfull-hr-container">
             </div>
         </div>
-        <div v-if="((this.p5Status === 1) || (this.AllStatus === 1) )" class="portfull-project-container">
+        <div v-if="((this.p5Status === 1) || (this.AllStatus === 1) || (this.ml5Status === 1) )" class="portfull-project-container">
             <div class="portfull-image-container">
                 <img src="/PicassoFiltersPreview.png">
             </div>
@@ -76,13 +76,36 @@
                         <h2>Picasso Face Filters</h2>
                     </div>
                     <div class="portfull-project-langused-container">
-                        <LanguagesUsed listOfTech="p5.js"></LanguagesUsed>
+                        <LanguagesUsed listOfTech="p5.js, ml5.js"></LanguagesUsed>
                     </div>
                     <div class="portfull-project-desc-container">
                         <p>A project built using ml5.js face mapping to create a series of face filters inspired by Picasso's self portraits. This project was created for my machine learning class at university.</p>
                     </div>
                     <div class="portfull-project-buttons-container">
                         <a href="https://github.com/lucyscanlon/PicassoFaceFilters" target="_blank"><button>View on Github</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfull-hr-container">
+            </div>
+        </div>
+        <div v-if="((this.CStatus === 1) || (this.AllStatus === 1))" class="portfull-project-container">
+            <div class="portfull-image-container deadlinedash-img">
+                <img src="/TadpoleGamePreview2.png">
+            </div>
+            <div class="portfull-info-container">
+                <div class="portfull-project-padding tadpole-project-padding">
+                    <div class="portfull-project-title-container deadlinedash-padding">
+                        <h2>Tadpole Tamagotchi</h2>
+                    </div>
+                    <div class="portfull-project-langused-container">
+                        <LanguagesUsed listOfTech="C++"></LanguagesUsed>
+                    </div>
+                    <div class="portfull-project-desc-container">
+                        <p>A project built using C++ on xCode inspired by Tamagotchi games.</p>
+                    </div>
+                    <div class="portfull-project-buttons-container">
+                        <a href="https://github.com/lucyscanlon/Frog-tamagatchi" target="_blank"><button>View on Github</button></a>
                     </div>
                 </div>
             </div>
