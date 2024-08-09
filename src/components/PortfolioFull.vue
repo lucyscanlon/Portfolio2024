@@ -13,7 +13,7 @@
                 <span v-bind:class="(p5Status === 1) ? 'green-fill' : ''"><button @click="p5Press()">p5.js</button></span>
                 <span v-bind:class="(CStatus === 1) ? 'green-fill' : ''"><button @click="CPress()">C++</button></span>
                 <span v-bind:class="(WordPressStatus === 1) ? 'green-fill' : ''"><button @click="WordPressPress()">WordPress</button></span>
-                <span v-bind:class="(FreelanceStatus === 1) ? 'green-fill' : ''"><button @click="FreelancePress()">Freelance</button></span>
+                <span v-bind:class="(FreelanceStatus === 1) ? 'green-fill' : ''"><button @click="freelancePress()">Freelance</button></span>
                 <span v-bind:class="(VanJSStatus === 1) ? 'green-fill' : ''"><button @click="VanJSPress()">Vanilla JavaScript</button></span>
                 <span v-bind:class="(ml5Status === 1) ? 'green-fill' : ''"><button @click="ml5Press()">ml5.js</button></span>
             </div>
