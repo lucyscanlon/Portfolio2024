@@ -34,11 +34,59 @@
                         <p>An interactive JavaScript game built using Vue JS, which educates players about personal finance concepts and encourages players to make responsible decisions. This project was developed as my final project in my third year of university and I was awarded a first for this project.</p>
                     </div>
                     <div class="portfull-project-buttons-container">
-                        <button>Play Game</button>
-                        <button>View on Github</button>
+                        <a href="https://www.cashcourse.online/" target="_blank"><button>Play Game</button></a>
+                        <a href="https://github.com/lucyscanlon/FinanceGame" target="_blank"><button>View on Github</button></a>
                     </div>
                 </div>
-
+            </div>
+            <div class="portfull-hr-container">
+            </div>
+        </div>
+        <div v-if="((this.p5Status === 1) || (this.AllStatus === 1) )" class="portfull-project-container">
+            <div class="portfull-image-container deadlinedash-img">
+                <img src="/DeadlineDashPreview.png">
+            </div>
+            <div class="portfull-info-container">
+                <div class="portfull-project-padding">
+                    <div class="portfull-project-title-container deadlinedash-padding">
+                        <h2>Deadline Dash: An Arcade Game Inspired By exam season</h2>
+                    </div>
+                    <div class="portfull-project-langused-container">
+                        <LanguagesUsed listOfTech="p5.js"></LanguagesUsed>
+                    </div>
+                    <div class="portfull-project-desc-container">
+                        <p>An interactive game inspired by exam season at university. This game was created for my class Expressive Game Design where we made a game that reflected a real life experience. This game is published and playable on itch.io</p>
+                    </div>
+                    <div class="portfull-project-buttons-container">
+                        <a href="https://lucyscanlon.itch.io/deadline-dash" target="_blank"><button>Play Game</button></a>
+                        <a href="https://github.com/lucyscanlon/DeadlineDash" target="_blank"><button>View on Github</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfull-hr-container">
+            </div>
+        </div>
+        <div v-if="((this.p5Status === 1) || (this.AllStatus === 1) )" class="portfull-project-container">
+            <div class="portfull-image-container">
+                <img src="/PicassoFiltersPreview.png">
+            </div>
+            <div class="portfull-info-container">
+                <div class="portfull-project-padding picassoproject-padding">
+                    <div class="portfull-project-title-container deadlinedash-padding">
+                        <h2>Picasso Face Filters</h2>
+                    </div>
+                    <div class="portfull-project-langused-container">
+                        <LanguagesUsed listOfTech="p5.js"></LanguagesUsed>
+                    </div>
+                    <div class="portfull-project-desc-container">
+                        <p>A project built using ml5.js face mapping to create a series of face filters inspired by Picasso's self portraits. This project was created for my machine learning class at university.</p>
+                    </div>
+                    <div class="portfull-project-buttons-container">
+                        <a href="https://github.com/lucyscanlon/PicassoFaceFilters" target="_blank"><button>View on Github</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfull-hr-container">
             </div>
         </div>
     </div>
