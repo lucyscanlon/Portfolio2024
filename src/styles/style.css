@@ -69,11 +69,25 @@ html {
     display: inline;
     padding-left: 50px;
     padding-right: 50px;
+    transition-duration: 0.2s;
+  
+}
+
+.navigation-list-container a {
+    text-decoration: none;
+    color: black;
+    transition-duration: 0.2s;
+}
+
+.navigation-list-container .navSelected {
+    color: #6C9A5F;
+    transition-duration: 0.2s;
 }
 
 .navigation-list-container li:hover {
     color: #6C9A5F;
     cursor: pointer;
+    transition-duration: 0.2s;
 }
 
 .navigation-list-container ul {
@@ -88,14 +102,21 @@ html {
     padding-right: 50px;
 }
 
-.navigation-list-container .fa-github {
-    padding-right: 8px;
-}
-
 .header-name-container {
     padding-top: 43px;
     padding-left: 70px;
     letter-spacing: 1px;
+}
+
+.header-name-container a {
+    text-decoration: none;
+    color: black;
+    transition-duration: 0.3s;
+}
+
+.header-name-container a:hover {
+    color: #6C9A5F;
+    transition-duration: 0.3s;
 }
 
 .header-name-container h1 {
