@@ -11,7 +11,7 @@
         <ul>
           <RouterLink to="/"><li class="colour-green">Home</li></RouterLink>
           <RouterLink to="/portfolio"><li>Portfolio</li></RouterLink>
-          <li>Contact</li>
+          <a href="https://github.com/lucyscanlon" target="_blank"><li>Github</li></a>
         </ul>
       </div>
 

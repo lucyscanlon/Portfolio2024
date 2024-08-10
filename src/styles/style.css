@@ -88,6 +88,10 @@ html {
     padding-right: 50px;
 }
 
+.navigation-list-container .fa-github {
+    padding-right: 8px;
+}
+
 .header-name-container {
     padding-top: 43px;
     padding-left: 70px;
