@@ -5,6 +5,7 @@ import './styles/style.css'
 import { createMemoryHistory, createRouter } from 'vue-router'
 import portfolioView from './components/PortfolioView.vue'
 import homepageView from './components/HomepageView.vue'
+import contactView from './components/ContactView.vue'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
@@ -31,6 +32,7 @@ const app = createApp(App);
 const routes = [
     { path: '/', component: homepageView },
     { path: '/portfolio', component: portfolioView },
+    { path: '/contact', component: contactView },
 ]
 
 const router = createRouter({

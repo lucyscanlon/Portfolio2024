@@ -11,7 +11,7 @@
         <ul>
           <RouterLink to="/"><li class="colour-green">Home</li></RouterLink>
           <RouterLink to="/portfolio"><li>Portfolio</li></RouterLink>
-          <li>Contact</li>
+          <RouterLink to="/contact"><li>Contact</li></RouterLink>
         </ul>
       </div>
 
