@@ -108,7 +108,7 @@
         LanguagesUsed,
     }, data() {
         return {
-            currentSlide: 1,
+            currentSlide: 0,
         }
     }, methods: {
         nextSlide() {
