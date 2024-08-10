@@ -28,9 +28,6 @@
                     <div class="introduction-grad-container">
                         <p><font-awesome-icon icon="fa-solid fa-user-graduate" /> First Class Honors Degree in Creative Computing</p>
                     </div>
-                    <div class="introduction-button-container">
-                        <button>Email Me</button>
-                    </div>
                 </div>
 
             </div>
