@@ -4,10 +4,7 @@
             <h1>A few of my projects</h1>
         </div>
         <div class="portglimpse-desc-container">
-            <p>A small glimpse at a few of examples of my work</p>
-        </div>
-        <div class="portglimpse-button-container">
-            <button>View Full Portfolio</button>
+            <p>A small glimpse at a few of examples of my work. Please visit my full portfolio to see more projects.</p>
         </div>
         <div class="portfolioreel-flex-container">
             <div class="portfolioreel-leftarrow-container">
