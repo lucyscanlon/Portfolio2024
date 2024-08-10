@@ -137,7 +137,7 @@
         </div>
         <div v-if="((this.VanJSStatus === 1) || (this.AllStatus === 1))" class="portfull-project-container">
             <div class="portfull-image-container">
-                <img src="/HangmanGamePreview.png">
+                <img src="/Hangman.jpg">
             </div>
             <div class="portfull-info-container">
                 <div class="portfull-project-padding tadpole-project-padding">
@@ -160,8 +160,8 @@
             </div>
         </div>
         <div v-if="((this.WordPressStatus === 1) || (this.AllStatus === 1) || (this.FreelanceStatus === 1))" class="portfull-project-container">
-            <div class="portfull-image-container">
-                <img src="/OakhamFarmPreview.png">
+            <div class="portfull-image-container deadlinedash-img">
+                <img src="/OakF.jpg">
             </div>
             <div class="portfull-info-container">
                 <div class="portfull-project-padding oakhamfarm-padding">
@@ -204,6 +204,16 @@
                 </div>
             </div>
             <div class="portfull-hr-container">
+            </div>
+        </div>
+        <div v-if="((AllStatus === 0) && (VueStatus === 0) && (p5Status === 0) && (CStatus === 0) && (WordPressStatus === 0) && (FreelanceStatus === 0) && (VanJSStatus === 0) && (ml5Status === 0))" class="portfull-noselection-container">
+            <div class="portfull-noselection-padding">
+                <div class="portfull-noselection-title-container">
+                    <h2>You have no filters selected</h2>
+                </div>
+                <div class="portfull-noselection-desc-container">
+                    <p>Please select a filter to see specific projects, or select the 'All' button to see all of my projects</p>
+                </div>
             </div>
         </div>
     </div>
