@@ -1002,6 +1002,10 @@ html {
 
     }
 
+    .navigation-list-container ul {
+        padding-top: 35px;
+    }
+
     .navigation-list-container li:hover {
         color: #6C9A5F;
         transition-duration: 0.3s;
