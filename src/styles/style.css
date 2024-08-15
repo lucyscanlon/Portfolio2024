@@ -129,7 +129,7 @@ html {
 
 .introduction-whole-container {
     width: 100%;
-    height: 550px;
+    min-height: 550px;
     background-color: #F3F1EB;
 }
 
@@ -137,36 +137,29 @@ html {
     width: 80%;
     height: 100%;
     margin: 0 auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+
 }
 
 .introduction-image-left-flex {
-    width: 40%;
+    width: 45%;
     float: left;
-    height: 100%;
 }
 
 .introduction-text-right-flex {
-    width: 60%;
+    width: 55%;
     float: right;
-    height: 100%;
 }
 
 .polaroid-white-container {
     width: 300px;
     height: 380px;
     background-color: white;
-    float: right;
     margin-right: 50px;
     margin-top: 50px;
     border-radius: 15px;
     -webkit-box-shadow: 3px 3px 10px -3px rgba(0,0,0,0.75);
     -moz-box-shadow: 3px 3px 10px -3px rgba(0,0,0,0.75);
     box-shadow: 3px 3px 10px -3px rgba(0,0,0,0.75);
-    transform-origin: 50% 50%;
-    transform: rotate(3deg);
 }
 
 .polaroid-image-container {
@@ -353,6 +346,7 @@ html {
     font-family: "Figtree", sans-serif;
     font-weight: 300;
     font-size: 17px;
+    line-height: 2em;
 }
 
 .portfolioreel-whole-container {
@@ -833,6 +827,154 @@ html {
     font-size: 16px;
     color: #4B4B4B;
     line-height: 2em;
+}
+
+
+
+/* media queries */
+
+/* Homepage */
+
+/* larger screens */
+
+@media only screen and (min-width: 921px) {
+
+    .polaroid-white-container {
+        float: right;
+        margin-right: 0px;
+        rotate: 0;
+    }
+
+    .polaroid-white-container {
+        transform-origin: 50% 50%;
+        transform: rotate(3deg);
+    }
+
+    .introduction-padding {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    .introduction-image-left-flex {
+        height: 100%;
+    }
+
+    .introduction-text-right-flex {
+        height: 100%;
+    }
+}
+/* smaller screens*/
+
+@media only screen and (max-width: 1200px) {
+
+    .portfolioreel-image-container {
+        min-height: 250px;
+    }
+}
+
+
+@media only screen and (max-width: 1100px) {
+    .portfolioreel-image-container {
+        min-height: 220px;
+    }
+}
+
+@media only screen and (max-width: 920px) { 
+
+    .introduction-padding {
+        display: block;
+    }
+
+    .introduction-image-left-flex {
+        width: 100%;
+    }
+
+    .introduction-text-right-flex {
+        width: 100%;
+    }
+
+    .introduction-whole-container {
+        min-height: 800px;
+        overflow: auto;
+    }
+
+    .polaroid-white-container {
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 80px;
+    }
+
+    .polaroid-image-container {
+        position: relative;
+        top: 20px;
+    }
+
+    .polaroid-information-container {
+        margin-top: 20px;
+    }
+
+    .introduction-text-right-flex {
+        text-align: center;
+        padding-bottom: 100px;
+        
+    }
+
+    .introduction-text-padding {
+        padding-top: 50px;
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    .introduction-description-container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .introduction-grad-container {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .polaroid-information-container li {
+        text-align: left;
+    }
+
+    .portfolioreel-padding {
+        margin-top: 40px;
+    }
+
+    .portfolioreel-title-container h2 {
+        font-size: 22px;
+        line-height: 1.6em;
+    }
+
+    .portfolioreel-image-container {
+        width: 80%;
+    }
+
+    .portfolioreel-desc-container {
+        width: 95%;
+    }
+
+    .portfolioreel-github-button-container {
+        padding-top: 50px;
+    }
+
+    .portfolioreel-rightarrow-container p {
+        font-size: 35px;
+    }
+
+    .portfolioreel-leftarrow-container p {
+        font-size: 35px;
+    }
+
+    .workexperience-list-whole-container {
+        width: 80%;
+    }
+
+   
+
 }
 
 
