@@ -1026,6 +1026,7 @@ html {
         z-index: 100;
         display: flex;
         transition: all .5s ease;
+        overflow-y: hidden;
     }
 
     .small-menu-open {

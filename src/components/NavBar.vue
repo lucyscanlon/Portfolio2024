@@ -48,11 +48,13 @@ export default {
 
     openSmallMenu() {
       this.smallMenuOpen = true;
+      document.body.style.overflow = 'hidden';
       
     },
 
     recieveMenuEmit() {
       this.smallMenuOpen = false;
+      document.body.style.overflow = '';
     }
   }
 }
