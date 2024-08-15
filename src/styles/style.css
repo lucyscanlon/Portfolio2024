@@ -294,7 +294,7 @@ html {
 }
 
 .portglimpse-title-container {
-    width: 705;
+    width: 70%;
     margin: 0 auto;
     text-align: center;
     padding-top: 80px;
@@ -862,6 +862,14 @@ html {
 
     .introduction-text-right-flex {
         height: 100%;
+    }
+
+    .small-menu-container {
+        display: none;
+    }
+
+    .smaller-burger-menu-container {
+        display: none;
     }
 }
 /* smaller screens*/
