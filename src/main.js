@@ -15,6 +15,8 @@ import { faCode } from '@fortawesome/free-solid-svg-icons'
 import { faArrowLeft } from '@fortawesome/free-solid-svg-icons'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import { faCalendarDays } from '@fortawesome/free-solid-svg-icons'
+import { faBars } from '@fortawesome/free-solid-svg-icons'
+import { faX } from '@fortawesome/free-solid-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
 library.add(faUserGraduate)
@@ -24,7 +26,9 @@ library.add(faCode)
 library.add(faArrowLeft)
 library.add(faArrowRight)
 library.add(faGithub)
+library.add(faBars)
 library.add(faCalendarDays)
+library.add(faX)
 
 const app = createApp(App);
 

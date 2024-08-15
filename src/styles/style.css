@@ -973,6 +973,116 @@ html {
         width: 80%;
     }
 
+    .larger-full-menu-container {
+        display: none;
+    }
+
+    .header-name-left-container {
+        width: 60%;
+    }
+
+    .header-nav-right-container {
+        width: 40%;
+    }
+
+    .smaller-burger-menu-container li {
+        font-size: 20px;
+        font-family: gameboy;
+        text-align: right;
+    }
+
+    .navigation-list-container {
+        padding-right: 20px;
+        padding-top: 15px;
+    }
+
+    .navigation-list-container li {
+        padding-right: 20px;
+        transition-duration: 0.3s;
+
+    }
+
+    .navigation-list-container li:hover {
+        color: #6C9A5F;
+        transition-duration: 0.3s;
+        cursor: pointer;
+
+    }
+
+    .header-name-container {
+        padding-left: 40px;
+    }
+
+
+    /* small menu */
+
+    .small-menu-container {
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(108, 154, 95, 0.95);
+        position: absolute;
+        top: -100vh;
+        left: 0;
+        z-index: 100;
+        display: flex;
+    }
+
+    .small-menu-open {
+        top: 0;
+    }
+
+    .small-menu-padding {
+        width: 80%;
+        margin: auto auto;
+    }
+
+    .small-menu-title h2 {
+        text-align: center;
+        font-family: gameboy;
+        color: white;
+        font-size: 30px;
+    }
+
+    .small-menu-list-container {
+        width: 100%;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .small-menu-list-container li {
+        padding-bottom: 30px;
+        font-family: "Figtree", sans-serif;
+        list-style-type: none;
+        font-size: 25px;
+        font-weight: 300;
+    }
+
+    .small-menu-list-container ul {
+        padding-top: 20px;
+    }
+
+    .small-menu-list-container a {
+        color: white;
+        text-decoration: none;
+        transition-duration: 0.3s;
+    }
+
+    .small-menu-list-container a:hover {
+        color: black;
+        transition-duration: 0.3s;
+        cursor: pointer;
+    }
+
+    .small-menu-close-container h2 {
+        text-align: center;
+        font-family: gameboy;
+        color: white;
+        font-size: 30px;
+        padding-top: 30px;
+    }
+
+
+   
    
 
 }
