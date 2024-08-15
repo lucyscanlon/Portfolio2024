@@ -6,9 +6,9 @@
             </div>
             <div class="small-menu-list-container">
                 <ul>
-                    <RouterLink to="/"><li>Home</li></RouterLink>
-                    <RouterLink to="/portfolio"><li>Portfolio</li></RouterLink>
-                    <a href="https://github.com/lucyscanlon" target="_blank"><li>Github</li></a>
+                    <RouterLink to="/" @click="closeMenuEmit()"><li>Home</li></RouterLink>
+                    <RouterLink to="/portfolio" @click="closeMenuEmit()"><li>Portfolio</li></RouterLink>
+                    <a href="https://github.com/lucyscanlon" target="_blank" @click="closeMenuEmit()"><li>Github</li></a>
                 </ul>
             </div>
             <div class="small-menu-close-container">
