@@ -1025,10 +1025,12 @@ html {
         left: 0;
         z-index: 100;
         display: flex;
+        transition: all .5s ease;
     }
 
     .small-menu-open {
         top: 0;
+        transition: all .5s ease;
     }
 
     .small-menu-padding {
