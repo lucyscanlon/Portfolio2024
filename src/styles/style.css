@@ -1098,7 +1098,7 @@ html {
 
 }
 
-
+/* mobile screens homepage */
 @media only screen and (max-width: 500px) {
 
     .header-nav-right-container {
@@ -1178,6 +1178,14 @@ html {
         width: 85%;
     }
 
+}
+
+/* hide mobile menu from larger screens*/
+@media only screen and (min-width: 501px) {
+
+    .mobile-screen-menu-button-container {
+        display: none;
+    }
 }
 
 
