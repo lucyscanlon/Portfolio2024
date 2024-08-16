@@ -19,8 +19,8 @@
             </div>
         </div>
         <div v-if="((this.VueStatus === 1) || (this.AllStatus === 1) )" class="portfull-project-container">
-            <div class="portfull-image-container">
-                <img src="/CashCoursePreview.png">
+            <div class="portfull-image-container cashcourseimage">
+                <!--<img src="/CashCoursePreview.png">-->
             </div>
             <div class="portfull-info-container">
                 <div class="portfull-project-padding">
@@ -39,16 +39,14 @@
                     </div>
                 </div>
             </div>
-            <div class="portfull-hr-container">
-            </div>
         </div>
         <div v-if="((this.p5Status === 1) || (this.AllStatus === 1) )" class="portfull-project-container">
-            <div class="portfull-image-container deadlinedash-img">
-                <img src="/DeadlineDashPreview.png">
+            <div class="portfull-image-container deadlinedash-img deadlinedashimage">
+                <!--<img src="/DeadlineDashPreview.png">-->
             </div>
             <div class="portfull-info-container">
                 <div class="portfull-project-padding">
-                    <div class="portfull-project-title-container deadlinedash-padding">
+                    <div class="portfull-project-title-container">
                         <h2>Deadline Dash: An Arcade Game Inspired By exam season</h2>
                     </div>
                     <div class="portfull-project-langused-container">
@@ -63,16 +61,14 @@
                     </div>
                 </div>
             </div>
-            <div class="portfull-hr-container">
-            </div>
         </div>
         <div v-if="((this.p5Status === 1) || (this.AllStatus === 1) || (this.ml5Status === 1) )" class="portfull-project-container">
-            <div class="portfull-image-container">
-                <img src="/PicassoFiltersPreview.png">
+            <div class="portfull-image-container picassofilterimage">
+                <!--<img src="/PicassoFiltersPreview.png">-->
             </div>
             <div class="portfull-info-container">
-                <div class="portfull-project-padding picassoproject-padding">
-                    <div class="portfull-project-title-container deadlinedash-padding">
+                <div class="portfull-project-padding">
+                    <div class="portfull-project-title-container">
                         <h2>Picasso Face Filters</h2>
                     </div>
                     <div class="portfull-project-langused-container">
@@ -86,16 +82,14 @@
                     </div>
                 </div>
             </div>
-            <div class="portfull-hr-container">
-            </div>
         </div>
         <div v-if="((this.CStatus === 1) || (this.AllStatus === 1))" class="portfull-project-container">
-            <div class="portfull-image-container deadlinedash-img">
-                <img src="/TadpoleGamePreview2.png">
+            <div class="portfull-image-container deadlinedash-img tadpolegameimage">
+                <!--<img src="/TadpoleGamePreview2.png">-->
             </div>
             <div class="portfull-info-container">
-                <div class="portfull-project-padding tadpole-project-padding">
-                    <div class="portfull-project-title-container deadlinedash-padding">
+                <div class="portfull-project-padding ">
+                    <div class="portfull-project-title-container">
                         <h2>Tadpole Tamagotchi</h2>
                     </div>
                     <div class="portfull-project-langused-container">
@@ -109,16 +103,14 @@
                     </div>
                 </div>
             </div>
-            <div class="portfull-hr-container">
-            </div>
         </div>
         <div v-if="((this.p5Status === 1) || (this.AllStatus === 1))" class="portfull-project-container">
-            <div class="portfull-image-container">
-                <img src="/MarsRoverGame.png">
+            <div class="portfull-image-container marsroverimage">
+                <!--<img src="/MarsRoverGame.png">-->
             </div>
             <div class="portfull-info-container">
-                <div class="portfull-project-padding tadpole-project-padding">
-                    <div class="portfull-project-title-container deadlinedash-padding">
+                <div class="portfull-project-padding">
+                    <div class="portfull-project-title-container">
                         <h2>Mars Rover Game</h2>
                     </div>
                     <div class="portfull-project-langused-container">
@@ -132,16 +124,14 @@
                     </div>
                 </div>
             </div>
-            <div class="portfull-hr-container">
-            </div>
         </div>
         <div v-if="((this.VanJSStatus === 1) || (this.AllStatus === 1))" class="portfull-project-container">
-            <div class="portfull-image-container">
-                <img src="/Hangman.jpg">
+            <div class="portfull-image-container hangmangameimage">
+                <!--<img src="/Hangman.jpg">-->
             </div>
             <div class="portfull-info-container">
-                <div class="portfull-project-padding tadpole-project-padding">
-                    <div class="portfull-project-title-container deadlinedash-padding">
+                <div class="portfull-project-padding">
+                    <div class="portfull-project-title-container">
                         <h2>Hangman Game</h2>
                     </div>
                     <div class="portfull-project-langused-container">
@@ -156,16 +146,14 @@
                     </div>
                 </div>
             </div>
-            <div class="portfull-hr-container">
-            </div>
         </div>
         <div v-if="((this.WordPressStatus === 1) || (this.AllStatus === 1) || (this.FreelanceStatus === 1))" class="portfull-project-container">
-            <div class="portfull-image-container deadlinedash-img">
-                <img src="/OakF.jpg">
+            <div class="portfull-image-container deadlinedash-img oakhamfarmimage">
+                <!--<img src="/OakF.jpg">-->
             </div>
             <div class="portfull-info-container">
-                <div class="portfull-project-padding oakhamfarm-padding">
-                    <div class="portfull-project-title-container deadlinedash-padding">
+                <div class="portfull-project-padding">
+                    <div class="portfull-project-title-container">
                         <h2>Oakham Farm Website</h2>
                     </div>
                     <div class="portfull-project-langused-container">
@@ -180,16 +168,14 @@
                     </div>
                 </div>
             </div>
-            <div class="portfull-hr-container">
-            </div>
         </div>
         <div v-if="((this.WordPressStatus === 1) || (this.AllStatus === 1) || (this.FreelanceStatus === 1))" class="portfull-project-container">
-            <div class="portfull-image-container deadlinedash-img">
-                <img src="/TrekPreview.png">
+            <div class="portfull-image-container deadlinedash-img trekimage">
+                <!--<img src="/TrekPreview.png">-->
             </div>
             <div class="portfull-info-container">
-                <div class="portfull-project-padding oakhamfarm-padding">
-                    <div class="portfull-project-title-container deadlinedash-padding">
+                <div class="portfull-project-padding">
+                    <div class="portfull-project-title-container">
                         <h2>Trek - A Wordpress Theme for Travel Bloggers</h2>
                     </div>
                     <div class="portfull-project-langused-container">
@@ -202,8 +188,6 @@
                         <a href="https://github.com/lucyscanlon/trek" target="_blank"><button>View on Github</button></a>
                     </div>
                 </div>
-            </div>
-            <div class="portfull-hr-container">
             </div>
         </div>
         <div v-if="((AllStatus === 0) && (VueStatus === 0) && (p5Status === 0) && (CStatus === 0) && (WordPressStatus === 0) && (FreelanceStatus === 0) && (VanJSStatus === 0) && (ml5Status === 0))" class="portfull-noselection-container">
