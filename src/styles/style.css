@@ -1112,6 +1112,8 @@ html {
 
     .header-name-container {
         padding-left: 0px;
+        width: 90%;
+        margin: 0 auto;
     }
 
     .polaroid-white-container {
@@ -1135,6 +1137,45 @@ html {
         color: white;
         font-family: gameboy;
         font-size: 25px;
+    }
+
+    .portfolioreel-leftarrow-container p {
+        font-size: 30px;
+        padding-top: 55px;
+    }
+
+    .portfolioreel-rightarrow-container p {
+        font-size: 30px;
+        padding-top: 55px;
+    }
+
+    .portfolioreel-padding {
+        width: 100%;
+        margin-bottom: 70px;
+    }
+
+    .portfolioreel-image-container {
+        min-height: 0px;
+    }
+
+    .portfolioreel-github-button-container button {
+        margin-bottom: 15px;
+    }
+
+    .portglimpse-title-container h1 {
+        font-size: 25px;
+    }
+
+    .workexperience-title-container h1 {
+        font-size: 25px;
+    }
+
+    .workexperience-title-container {
+        width: 90%;
+    }
+
+    .workexperience-list-padding {
+        width: 85%;
     }
 
 }
