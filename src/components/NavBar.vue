@@ -1,4 +1,9 @@
 <template>
+  <div class="mobile-screen-menu-button-container">
+    <div class="mobile-screen-button">
+      <button @click="openSmallMenu()"><font-awesome-icon icon="fa-solid fa-bars" /> Menu</button>
+    </div>
+  </div>
   <div class="header-nav-bar-container">
     <div class="header-name-left-container">
       <div class="header-name-container">

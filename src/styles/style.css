@@ -958,7 +958,7 @@ html {
     }
 
     .portfolioreel-image-container {
-        width: 80%;
+        width: 100%;
     }
 
     .portfolioreel-desc-container {
@@ -1096,13 +1096,48 @@ html {
         padding-top: 30px;
     }
 
-
-   
-   
-
 }
 
 
+@media only screen and (max-width: 500px) {
+
+    .header-nav-right-container {
+        display: none;
+    }
+
+    .header-name-left-container {
+        width: 100%;
+        text-align: center;
+    }
+
+    .header-name-container {
+        padding-left: 0px;
+    }
+
+    .polaroid-white-container {
+        margin-top: 25px;
+    }
+
+    .mobile-screen-menu-button-container {
+        width: 100%;
+        height: 70px;
+        background-color: #6C9A5F;
+    }
+
+    .mobile-screen-button {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .mobile-screen-button button {
+        border: none;
+        background-color: #6C9A5F;
+        color: white;
+        font-family: gameboy;
+        font-size: 25px;
+    }
+
+}
 
 
 
