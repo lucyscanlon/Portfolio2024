@@ -444,6 +444,12 @@ html {
     background-repeat: no-repeat;
 } 
 
+.portfoliositeimage {
+    background-image: url("../../public/PortfolioSitePreview.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+} 
+
 .languagesused-information-container {
     width: 100%;
     text-align: center;

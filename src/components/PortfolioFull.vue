@@ -40,6 +40,27 @@
                 </div>
             </div>
         </div>
+        <div v-if="((this.VueStatus === 1) || (this.AllStatus === 1) )" class="portfull-project-container">
+            <div class="portfull-image-container portfoliositeimage">
+                <!--<img src="/CashCoursePreview.png">-->
+            </div>
+            <div class="portfull-info-container">
+                <div class="portfull-project-padding">
+                    <div class="portfull-project-title-container">
+                        <h2>This Website! My portfolio</h2>
+                    </div>
+                    <div class="portfull-project-langused-container">
+                        <LanguagesUsed listOfTech="Vue JS, JavaScript, HTML, CSS"></LanguagesUsed>
+                    </div>
+                    <div class="portfull-project-desc-container">
+                        <p>This website was built using Vue js to display my projects.</p>
+                    </div>
+                    <div class="portfull-project-buttons-container">
+                        <a href="https://github.com/lucyscanlon/Portfolio2024" target="_blank"><button>View on Github</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div v-if="((this.p5Status === 1) || (this.AllStatus === 1) )" class="portfull-project-container">
             <div class="portfull-image-container deadlinedash-img deadlinedashimage">
                 <!--<img src="/DeadlineDashPreview.png">-->
