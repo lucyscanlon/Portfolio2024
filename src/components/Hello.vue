@@ -23,7 +23,7 @@
                         <h1>Hey!</h1>
                     </div>
                     <div class="introduction-description-container">
-                        <p>Maecenas mollis lobortis dictum. Quisque eros erat, volutpat eget consequat ut, tempus sed mauris. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec sed vehicula purus. Nunc consequat ipsum ac orci aliquam, id efficitur purus consequat. </p>
+                        <p>Welcome to my portfolio website! I am a recent graduate from Goldsmiths University of London, and am currently looking for an entry level developer role. Please look at my projects to see examples of my work.</p>
                     </div>
                     <div class="introduction-grad-container">
                         <p><font-awesome-icon icon="fa-solid fa-user-graduate" /> First Class Honors Degree in Creative Computing</p>
