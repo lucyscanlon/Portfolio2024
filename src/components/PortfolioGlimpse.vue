@@ -15,7 +15,7 @@
                     <div class="portfolioreel-title-container">
                         <h2>Cash Course: An Interactive Financial Education Game</h2>
                     </div>
-                    <LanguagesUsed listOfTech="Vue JS, JavaScript, HTML, CSS"></LanguagesUsed>
+                    <LanguagesUsed listOfTech="Vue JS, Pinia, JavaScript, HTML, CSS"></LanguagesUsed>
                     <div class="portfolioreel-image-container">
                         <img src="/CashCoursePreview.png">
                     </div>

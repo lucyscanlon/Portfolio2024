@@ -28,7 +28,7 @@
                         <h2>Cash Course: An Interactive Financial Education Game</h2>
                     </div>
                     <div class="portfull-project-langused-container">
-                        <LanguagesUsed listOfTech="Vue JS, JavaScript, HTML, CSS"></LanguagesUsed>
+                        <LanguagesUsed listOfTech="Vue JS, Pinia, JavaScript, HTML, CSS"></LanguagesUsed>
                     </div>
                     <div class="portfull-project-desc-container">
                         <p>An interactive JavaScript game built using Vue JS, which educates players about personal finance concepts and encourages players to make responsible decisions. This project was developed as my final project in my third year of university and I was awarded a first for this project.</p>
