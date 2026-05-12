@@ -13,6 +13,7 @@ html {
 
 .colour-green {
     color: #6C9A5F;
+    font-size: 64px;
 }
 
 
@@ -43,6 +44,22 @@ html {
     src: url("../assets/fonts/Edensor-FREE.otf") format("opentype");
 }
 
+@font-face {
+    font-family: Bricolage;
+    src: url("../assets/fonts/BricolageGrotesque.ttf") format("truetype");
+}
+
+/*
+
+Globals 
+
+*/
+
+h1 {
+    font-family: "Bricolage";
+    font-size: 64px;
+}
+
 
 /* navigation bar */
 
@@ -62,7 +79,7 @@ html {
     width: 65%;
     height: 100%;
     float: right;
-    
+
 }
 
 .navigation-list-container li {
@@ -70,7 +87,7 @@ html {
     padding-left: 50px;
     padding-right: 50px;
     transition-duration: 0.2s;
-  
+
 }
 
 .navigation-list-container a {
@@ -158,9 +175,9 @@ html {
     margin-right: 50px;
     margin-top: 50px;
     border-radius: 15px;
-    -webkit-box-shadow: 3px 3px 10px -3px rgba(0,0,0,0.75);
-    -moz-box-shadow: 3px 3px 10px -3px rgba(0,0,0,0.75);
-    box-shadow: 3px 3px 10px -3px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 3px 3px 10px -3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 3px 3px 10px -3px rgba(0, 0, 0, 0.75);
+    box-shadow: 3px 3px 10px -3px rgba(0, 0, 0, 0.75);
 }
 
 .polaroid-image-container {
@@ -181,11 +198,6 @@ html {
     width: 90%;
     padding-left: 50px;
     padding-top: 110px;
-}
-
-.introduction-heading-container h1{
-    font-family: Gameboy;
-    font-size: 30px;
 }
 
 .introduction-description-container {
@@ -234,7 +246,7 @@ html {
     font-size: 16px;
     font-weight: 300;
     color: #6C9A5F;
-    
+
     width: 80%;
     line-height: 2em;
 }
@@ -340,7 +352,7 @@ html {
     margin: 0 auto;
     text-align: center;
     padding-top: 20px;
-    
+
 }
 
 .portglimpse-desc-container p {
@@ -400,55 +412,55 @@ html {
     background-image: url("../../public/CashCoursePreview.png");
     background-size: cover;
     background-repeat: no-repeat;
-}  
+}
 
 .deadlinedashimage {
     background-image: url("../../public/DeadlineDashPreview.png");
     background-size: cover;
     background-repeat: no-repeat;
-} 
+}
 
 .picassofilterimage {
     background-image: url("../../public/PicassoFiltersPreview.png");
     background-size: cover;
     background-repeat: no-repeat;
-} 
+}
 
 .tadpolegameimage {
     background-image: url("../../public/TadpoleGamePreview2.png");
     background-size: cover;
     background-repeat: no-repeat;
-} 
+}
 
 .marsroverimage {
     background-image: url("../../public/MarsRoverGame.png");
     background-size: cover;
     background-repeat: no-repeat;
-} 
+}
 
 .hangmangameimage {
     background-image: url("../../public/hangman.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-} 
+}
 
 .oakhamfarmimage {
     background-image: url("../../public/OakF.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-} 
+}
 
 .trekimage {
     background-image: url("../../public/TrekPreview.png");
     background-size: cover;
     background-repeat: no-repeat;
-} 
+}
 
 .portfoliositeimage {
     background-image: url("../../public/PortfolioSitePreview.png");
     background-size: cover;
     background-repeat: no-repeat;
-} 
+}
 
 .languagesused-information-container {
     width: 100%;
@@ -517,7 +529,7 @@ html {
     width: 100%;
     overflow: auto;
     min-height: 500px;
-    
+
 }
 
 .portfolioreel-leftarrow-container {
@@ -651,7 +663,8 @@ html {
     font-family: "Figtree", sans-serif;
     font-weight: 300;
     font-size: 18px;
-    padding-bottom: 10px;padding-top: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 .workexperience-skills-container h5 {
@@ -682,7 +695,7 @@ html {
 /* portfolio full view */
 
 .portfull-whole-container {
-    background-color:#F3F1EB;
+    background-color: #F3F1EB;
 }
 
 .portfull-project-container {
@@ -946,6 +959,7 @@ html {
         display: none;
     }
 }
+
 /* smaller screens*/
 
 @media only screen and (max-width: 1200px) {
@@ -962,7 +976,7 @@ html {
     }
 }
 
-@media only screen and (max-width: 920px) { 
+@media only screen and (max-width: 920px) {
 
     .introduction-padding {
         display: block;
@@ -999,7 +1013,7 @@ html {
     .introduction-text-right-flex {
         text-align: center;
         padding-bottom: 100px;
-        
+
     }
 
     .introduction-text-padding {
@@ -1299,7 +1313,7 @@ html {
 
 
 @media only screen and (max-width: 720px) {
-    
+
     .portfull-image-container {
         width: 70%;
         margin: 0 auto;
@@ -1325,9 +1339,3 @@ html {
         border-radius: 15px;
     }
 }
-
-
-
-
-
-
