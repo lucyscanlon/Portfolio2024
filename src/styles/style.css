@@ -605,7 +605,7 @@ html {
 
 .workexperience-list-title-container h3 {
     font-family: Gameboy;
-    font-size: 17px;
+    font-size: 20px;
 }
 
 .workexperience-date-container {
@@ -630,6 +630,8 @@ html {
 .workexperience-list-resp-container h4 {
     font-family: "Figtree", sans-serif;
     font-weight: 300;
+    font-size: 18px;
+    padding-bottom: 10px;
 }
 
 .workexperience-list-resp-container ul {
@@ -645,6 +647,37 @@ html {
     padding-bottom: 10px;
 }
 
+.workexperience-skills-container h4 {
+    font-family: "Figtree", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    padding-bottom: 10px;padding-top: 10px;
+}
+
+.workexperience-skills-container h5 {
+    font-family: "Figtree", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+.workexperience-skilllist-container li {
+    display: inline-block;
+    margin-right: 7px;
+    font-family: "Figtree", sans-serif;
+    font-weight: 300;
+    background-color: rgba(108, 154, 95, 0.1);
+    padding: 5px 10px;
+    margin-bottom: 7px;
+    border-radius: 5px;
+    border: solid 1px #6C9A5F;
+    color: #6C9A5F;
+    font-size: 15px;
+}
+
+.skilllist-notfirst {
+    padding-top: 10px;
+}
 
 /* portfolio full view */
 
