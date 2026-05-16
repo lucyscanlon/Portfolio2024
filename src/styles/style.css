@@ -16,6 +16,38 @@ html {
     font-size: 64px;
 }
 
+button {
+    background-color: #6C9A5F;
+    color: white;
+    border: solid 1.5px #6C9A5F;
+    padding: 10px 20px;
+    font-family: figtree;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+
+button:hover {
+    background-color: transparent;
+    transition-duration: 0.2s;
+    color: #6C9A5F;
+}
+
+p {
+    font-family: figtree;
+    font-size: 18px;
+    line-height: 2em;
+    font-weight: 300;
+    color: #4B4B4B;
+}
+
+h1 {
+    font-family: "Bricolage";
+    font-size: 50px;
+}
+
 
 /* fonts */
 
@@ -49,17 +81,10 @@ html {
     src: url("../assets/fonts/BricolageGrotesque.ttf") format("truetype");
 }
 
-/*
-
-Globals 
-
-*/
-
-h1 {
-    font-family: "Bricolage";
-    font-size: 64px;
+@font-face {
+    font-family: Figtree;
+    src: url("../assets/fonts/Figtree.ttf") format("truetype");
 }
-
 
 /* navigation bar */
 
@@ -142,29 +167,36 @@ h1 {
     padding-bottom: 35px;
 }
 
+.introduction-buttons-container {
+    padding-top: 25px;
+}
+
 
 /* introduction section */
 
 .introduction-whole-container {
     width: 100%;
-    min-height: 550px;
+    min-height: calc(100vh - 116px);
     background-color: #F3F1EB;
 }
 
 .introduction-padding {
     width: 80%;
+    max-width: 1080px;
     height: 100%;
     margin: 0 auto;
+    display: flex;
+    align-items: center;
 
 }
 
 .introduction-image-left-flex {
-    width: 45%;
+    width: 35%;
     float: left;
 }
 
 .introduction-text-right-flex {
-    width: 55%;
+    width: 75%;
     float: right;
 }
 
@@ -197,20 +229,11 @@ h1 {
 .introduction-text-padding {
     width: 90%;
     padding-left: 50px;
-    padding-top: 110px;
 }
 
 .introduction-description-container {
     padding-top: 20px;
     width: 90%;
-}
-
-.introduction-description-container p {
-    font-family: "Figtree", sans-serif;
-    font-size: 17px;
-    line-height: 2em;
-    font-weight: 300;
-    color: #4B4B4B;
 }
 
 .introduction-button-container {
@@ -242,13 +265,11 @@ h1 {
 
 .introduction-grad-container {
     padding-top: 20px;
-    font-family: "Figtree", sans-serif;
-    font-size: 16px;
-    font-weight: 300;
-    color: #6C9A5F;
-
     width: 80%;
-    line-height: 2em;
+}
+
+.introduction-grad-container p {
+    color: #6C9A5F;
 }
 
 .fa-user-graduate {
@@ -294,6 +315,10 @@ h1 {
 
 .polaroid-information-container a:hover li {
     color: #6C9A5F;
+}
+
+.email-button {
+    margin-right: 10px;
 }
 
 
@@ -930,6 +955,7 @@ h1 {
         float: right;
         margin-right: 0px;
         rotate: 0;
+        margin-top: 0px;
     }
 
     .polaroid-white-container {
@@ -941,6 +967,8 @@ h1 {
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
+        padding-top: 80px;
+        padding-bottom: 116px;
     }
 
     .introduction-image-left-flex {
@@ -979,7 +1007,11 @@ h1 {
 @media only screen and (max-width: 920px) {
 
     .introduction-padding {
-        display: block;
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        padding-top: 50px;
+        padding-bottom: 80px;
     }
 
     .introduction-image-left-flex {
@@ -991,14 +1023,14 @@ h1 {
     }
 
     .introduction-whole-container {
-        min-height: 800px;
+        min-height: 100vh;
         overflow: auto;
     }
 
     .polaroid-white-container {
         text-align: center;
         margin: 0 auto;
-        margin-top: 80px;
+        margin-top: 0px;
     }
 
     .polaroid-image-container {
@@ -1012,12 +1044,11 @@ h1 {
 
     .introduction-text-right-flex {
         text-align: center;
-        padding-bottom: 100px;
+        padding-bottom: 30px;
 
     }
 
     .introduction-text-padding {
-        padding-top: 50px;
         width: 100%;
         padding-left: 0px;
     }
@@ -1182,6 +1213,18 @@ h1 {
         color: white;
         font-size: 30px;
         padding-top: 30px;
+    }
+
+}
+
+@media screen and (max-width: 750px) {
+
+    h1 {
+        font-size: 36px;
+    }
+
+    .introduction-padding {
+        width: 90%;
     }
 
 }

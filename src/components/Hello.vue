@@ -20,13 +20,17 @@
             <div class="introduction-text-right-flex">
                 <div class="introduction-text-padding">
                     <div class="introduction-heading-container">
-                        <h1>H1: Hi, I’m Lucy. A Web Developer in Oxfordshire.</h1>
+                        <h1>Hi, I’m Lucy. A Web Developer in Oxfordshire.</h1>
                     </div>
                     <div class="introduction-description-container">
                         <p>I'm a Junior Web Developer based in Oxfordshire with agency and freelance experience. I build responsive, user-focused websites which help businesses communicate clearly, solve real world problems and turn visitors into customers. I’m passionate about continuously developing my skills and building high-quality digital experiences that follow industry best practices.</p>
                     </div>
                     <div class="introduction-grad-container">
                         <p><font-awesome-icon icon="fa-solid fa-user-graduate" /> First Class Honors Degree in Creative Computing</p>
+                    </div>
+                    <div class="introduction-buttons-container">
+                        <a href="mailto:lucyisobelscanlon@gmail.com"><button class="email-button">Email me</button></a>
+                        <RouterLink to="/portfolio"><button>View portfolio</button></RouterLink>
                     </div>
                 </div>
 
