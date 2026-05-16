@@ -19,7 +19,7 @@ html {
 button {
     background-color: #6C9A5F;
     color: white;
-    border: solid 1.5px #6C9A5F;
+    border: solid 1px #6C9A5F;
     padding: 10px 20px;
     font-family: figtree;
     border-radius: 10px;
@@ -46,6 +46,16 @@ p {
 h1 {
     font-family: "Bricolage";
     font-size: 50px;
+}
+
+h2 {
+    font-family: "Bricolage";
+    font-size: 45px;
+}
+
+h3 {
+    font-family: "Bricolage";
+    font-size: 40px;
 }
 
 
@@ -178,15 +188,18 @@ h1 {
     width: 100%;
     min-height: calc(100vh - 116px);
     background-color: #F3F1EB;
+    display: flex;
+    align-items: center;
 }
 
 .introduction-padding {
     width: 80%;
-    max-width: 1080px;
+    max-width: 1820px;
     height: 100%;
     margin: 0 auto;
     display: flex;
     align-items: center;
+
 
 }
 
@@ -338,9 +351,8 @@ h1 {
     padding-top: 80px;
 }
 
-.portglimpse-title-container h1 {
-    font-family: Gameboy;
-    font-size: 30px;
+.portglimpse-desc-container button {
+    margin-top: 20px;
 }
 
 .portglimpse-button-container {
@@ -376,7 +388,7 @@ h1 {
     width: 70%;
     margin: 0 auto;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 10px;
 
 }
 
@@ -400,8 +412,16 @@ h1 {
     width: 90%;
     margin: 0 auto;
     height: 100%;
-    margin-top: 100px;
+    margin-top: 30px;
     margin-bottom: 100px;
+}
+
+.portfolio-reel-wrapper {
+    background-color: #F3F1EB;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .portfolioreel-title-container {
@@ -409,28 +429,23 @@ h1 {
     margin: 0 auto;
     text-align: center;
     line-height: 2.5em;
-}
-
-.portfolioreel-title-container h2 {
-    font-family: Gameboy;
-    font-size: 25px;
+    padding-top: 15px;
 }
 
 .portfolioreel-image-container {
-    width: 60%;
+    width: 100%;
     margin: 0 auto;
     height: auto;
-    padding-top: 20px;
-    border-radius: 15px;
-    min-height: 350px;
+    border-radius: 10px;
+    height: 450px;
     background-color: white;
 }
 
 .portfolioreel-image-container img {
     width: 100%;
-    height: auto;
-    overflow: hidden;
-    border-radius: 15px;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
 }
 
 .cashcourseimage {
@@ -508,7 +523,7 @@ h1 {
     width: 80%;
     margin: 0 auto;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 15px;
 }
 
 .portfolioreel-desc-container p {
@@ -524,36 +539,20 @@ h1 {
     margin: 0 auto;
     text-align: center;
     padding-top: 20px;
-}
-
-.portfolioreel-github-button-container button {
-    width: 160px;
-    height: 45px;
-    border-radius: 15px;
-    background-color: #6C9A5F;
-    color: white;
-    border: none;
-    font-family: "Figtree", sans-serif;
-    font-size: 15px;
-    border: solid 2px #6C9A5F;
-    transition-duration: 0.3s;
-    font-weight: 400;
-    margin-left: 5px;
-    margin-right: 5px;
-}
-
-.portfolioreel-github-button-container button:hover {
-    background-color: white;
-    border: solid 2px #6C9A5F;
-    transition-duration: 0.3s;
-    color: #6C9A5F;
-    cursor: pointer;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .portfolioreel-flex-container {
-    width: 100%;
+    width: 90%;
     overflow: auto;
     min-height: 500px;
+    max-width: 2050px;
+    margin: 0 auto;
 
 }
 
@@ -1077,15 +1076,15 @@ h1 {
     }
 
     .portfolioreel-image-container {
-        width: 100%;
+        height: 300px;
     }
 
     .portfolioreel-desc-container {
         width: 95%;
     }
 
-    .portfolioreel-github-button-container {
-        padding-top: 50px;
+    .portfolioreel-flex-container {
+        width: 100%;
     }
 
     .portfolioreel-rightarrow-container p {
@@ -1094,6 +1093,14 @@ h1 {
 
     .portfolioreel-leftarrow-container p {
         font-size: 35px;
+    }
+
+    .portglimpse-title-container {
+        padding-top: 50px;
+    }
+
+    .portfolioreel-padding {
+        margin-bottom: 50px;
     }
 
     .workexperience-list-whole-container {
@@ -1225,6 +1232,19 @@ h1 {
 
     .introduction-padding {
         width: 90%;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    h3 {
+        font-size: 28px;
+        line-height: normal;
+    }
+
+    .portfolioreel-image-container {
+        height: 200px;
     }
 
 }

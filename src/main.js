@@ -18,6 +18,8 @@ import { faCalendarDays } from '@fortawesome/free-solid-svg-icons'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 import { faX } from '@fortawesome/free-solid-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faCircleArrowLeft } from '@fortawesome/free-solid-svg-icons'
+import { faCircleArrowRight } from '@fortawesome/free-solid-svg-icons'
 
 library.add(faUserGraduate)
 library.add(faEnvelope)
@@ -29,12 +31,14 @@ library.add(faGithub)
 library.add(faBars)
 library.add(faCalendarDays)
 library.add(faX)
+library.add(faCircleArrowLeft)
+library.add(faCircleArrowRight)
 
 const app = createApp(App);
 
 const routes = [
-    { path: '/', component: homepageView },
-    { path: '/portfolio', component: portfolioView },
+  { path: '/', component: homepageView },
+  { path: '/portfolio', component: portfolioView },
 ]
 
 const router = createRouter({
