@@ -171,7 +171,7 @@ h3 {
     transition-duration: 0.3s;
 }
 
-.header-name-container h1 {
+.header-name-container p {
     font-family: Gameboy;
     font-size: 30px;
     padding-bottom: 35px;
@@ -715,6 +715,7 @@ h3 {
 
 .portfull-whole-container {
     background-color: #FFFFFF;
+    padding-bottom: 50px;
 }
 
 .portfull-project-container {
@@ -724,15 +725,20 @@ h3 {
     justify-content: center;
 }
 
-.portfull-image-container {
-    width: 50%;
-    float: left;
-    height: auto;
-    overflow: hidden;
+.portfull-mainimage-container {
+    width: 100%;
+    height: 450px;
+}
+
+.portfull-mainimage-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
 }
 
 .portfull-info-container {
-    width: 80%;
+    width: 70%;
     max-width: 2050px;
     float: right;
     background-color: white;
@@ -803,6 +809,7 @@ h3 {
     width: 80%;
     margin: 0 auto;
     text-align: center;
+    padding-top: 15px;
 }
 
 .portfull-project-title-container h2 {
@@ -810,58 +817,33 @@ h3 {
 }
 
 .portfull-project-padding {
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-bottom: 35px;
     background-color: #F3F1EB;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 50px;
 }
 
 .portfull-project-desc-container {
     width: 80%;
     margin: 0 auto;
-    padding-top: 40px;
-}
-
-.portfull-project-desc-container p {
-    font-family: "Figtree", sans-serif;
-    font-weight: 300;
-    font-size: 16px;
-    color: #4B4B4B;
-    line-height: 2em;
+    padding-top: 15px;
     text-align: center;
-}
-
-.portfull-project-langused-container {
-    padding-top: 10px;
 }
 
 .portfull-project-buttons-container {
     width: 90%;
     margin: 0 auto;
-    padding-top: 40px;
+    padding-top: 15px;
     text-align: center;
 }
 
-.portfull-project-buttons-container button {
-    height: 40px;
-    padding-left: 25px;
-    padding-right: 25px;
-    margin-left: 5px;
-    margin-right: 5px;
-    border-radius: 15px;
-    background-color: #6C9A5F;
-    color: white;
-    border: solid 1.5px #6C9A5F;
-    font-family: "Figtree", sans-serif;
-    font-size: 15px;
-    transition-duration: 0.3s;
-    font-weight: 400;
-}
-
-.portfull-project-buttons-container button:hover {
-    background-color: white;
-    color: #6C9A5F;
-    transition-duration: 0.3s;
-    cursor: pointer;
+.portfull-project-buttons-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
 }
 
 .deadlinedash-padding {
@@ -915,13 +897,8 @@ h3 {
     padding-top: 30px;
 }
 
-.portfull-noselection-desc-container p {
+.portfull-noselection-desc-container {
     text-align: center;
-    font-family: "Figtree", sans-serif;
-    font-weight: 300;
-    font-size: 16px;
-    color: #4B4B4B;
-    line-height: 2em;
 }
 
 
@@ -1108,6 +1085,7 @@ h3 {
         font-size: 20px;
         font-family: gameboy;
         text-align: right;
+        color: white;
     }
 
     .navigation-list-container {
@@ -1132,8 +1110,18 @@ h3 {
 
     }
 
+    .header-nav-bar-container {
+        background-color: #6C9A5F;
+    }
+
     .header-name-container {
         padding-left: 40px;
+        color: white;
+        padding-top: 32px;
+    }
+
+    .header-name-container p {
+        color: white;
     }
 
     .workexperience-title-container {
@@ -1258,6 +1246,33 @@ h3 {
 
 }
 
+@media screen and (max-width: 670px) {
+    .header-name-container {
+        display: none;
+    }
+
+    .header-nav-right-container {
+        width: 100%;
+    }
+
+    .navigation-list-container ul {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .navigation-list-container {
+        padding: 0px;
+    }
+
+    .smaller-burger-menu-container {
+        padding-bottom: 20px;
+    }
+
+    .navigation-list-container li {
+        padding-left: 0px;
+    }
+}
+
 /* mobile screens homepage */
 @media only screen and (max-width: 500px) {
 
@@ -1282,7 +1297,7 @@ h3 {
 
     .mobile-screen-menu-button-container {
         width: 100%;
-        height: 70px;
+        height: 90px;
         background-color: #6C9A5F;
     }
 
@@ -1350,6 +1365,7 @@ h3 {
         width: 100%;
     }
 
+
 }
 
 /* hide mobile menu from larger screens*/
@@ -1369,27 +1385,28 @@ h3 {
 
     .portfull-image-container {
         width: 100%;
-        height: 450px;
+        height: 400px;
     }
 
     .portfull-info-container {
-        width: 100%;
+        width: 90%;
     }
 
     .portfull-whole-container {
         background-color: white;
     }
+
+    .portfull-language {
+        padding-bottom: 50px;
+    }
+
+    .portfull-project-padding {
+        margin-bottom: 30px;
+    }
 }
 
 
 @media only screen and (max-width: 720px) {
-
-    .portfull-image-container {
-        width: 70%;
-        margin: 0 auto;
-        height: 300px;
-        border-radius: 15px;
-    }
 
     .portfull-title-container {
         padding-top: 60px;
@@ -1397,6 +1414,14 @@ h3 {
 
     .portfull-project-buttons-container button {
         margin-bottom: 10px;
+    }
+
+    .portfull-mainimage-container {
+        height: 300px;
+    }
+
+    .portfull-whole-container {
+        padding-bottom: 20px;
     }
 }
 
@@ -1407,5 +1432,9 @@ h3 {
         margin: 0 auto;
         height: 250px;
         border-radius: 15px;
+    }
+
+    .portfull-mainimage-container {
+        height: 200px;
     }
 }

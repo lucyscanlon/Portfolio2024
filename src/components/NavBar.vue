@@ -7,7 +7,7 @@
   <div class="header-nav-bar-container">
     <div class="header-name-left-container">
       <div class="header-name-container">
-        <RouterLink to="/"><h1 @click="homeActive()">Lucy Scanlon</h1></RouterLink>
+        <RouterLink to="/"><p @click="homeActive()">Lucy Scanlon</p></RouterLink>
       </div>
     
     </div>
