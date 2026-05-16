@@ -1,16 +1,16 @@
 <template>
     <div class="workexperience-whole-container">
         <div class="workexperience-title-container">
-            <h1>Developer Experience</h1>
+            <h2>Work Experience</h2>
         </div>
         <div class="workexperience-list-whole-container">
             <div class="workexperience-list-container">
                 <div class="workexperience-list-padding">
                     <div class="workexperience-list-title-container">
-                        <h3>Junior Web Developer - Website Energizers - Full Time</h3>
+                        <h3>Junior Web Developer - Website Energizers</h3>
                     </div>
                     <div class="workexperience-date-container">
-                        <p><font-awesome-icon icon="fa-solid fa-calendar-days" />February 2025 - Present</p>
+                        <p><font-awesome-icon icon="fa-solid fa-calendar-days" />Full Time, February 2025 to Present</p>
                     </div>
                     <div class="workexperience-list-resp-container">
                         <h4>Responsibilities</h4>

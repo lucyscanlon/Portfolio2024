@@ -5,7 +5,7 @@
         </div>
         <div class="portfull-language-selector-container">
             <div class="portfull-desc-container">
-                <p>Filter projects using the buttons below:</p>
+                <p>Use the filters below to filter through my projects</p>
             </div>
             <div class="portfull-language">
                 <span v-bind:class="(AllStatus === 1) ? 'green-fill' : ''"><button @click="allPress()">All</button></span>
@@ -19,11 +19,11 @@
             </div>
         </div>
         <div v-if="((this.VueStatus === 1) || (this.AllStatus === 1) )" class="portfull-project-container">
-            <div class="portfull-image-container cashcourseimage">
-                <!--<img src="/CashCoursePreview.png">-->
-            </div>
             <div class="portfull-info-container">
                 <div class="portfull-project-padding">
+                    <div class="portfull-mainimage-container">
+                            <img src="/CashCoursePreview.png">
+                        </div>
                     <div class="portfull-project-title-container">
                         <h2>Cash Course: An Interactive Financial Education Game</h2>
                     </div>
